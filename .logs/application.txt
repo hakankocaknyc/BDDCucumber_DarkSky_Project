@@ -1,0 +1,452 @@
+2020-08-08 23:03:58,633  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:03:58,640  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:03:59,917 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-08-08 23:03:59,931 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-08-08 23:03:59,936 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-08-08 23:03:59,964 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-08-08 23:03:59,965 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2020-08-08 23:03:59,998 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/199.232.36.133:443
+2020-08-08 23:03:59,999 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/199.232.36.133:443 with timeout 0
+2020-08-08 23:04:00,101 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-08-08 23:04:00,101 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-08-08 23:04:00,102 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-08-08 23:04:00,231 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-08-08 23:04:00,231 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-08-08 23:04:00,232 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-08-08 23:04:00,234 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-08-08 23:04:00,238 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2020-08-08 23:04:00,239 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-08-08 23:04:00,241 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.206:63918<->199.232.36.133:443
+2020-08-08 23:04:00,242 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-08-08 23:04:00,242 DEBUG [main] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-08-08 23:04:00,243 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-08-08 23:04:00,245 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-08-08 23:04:00,247 DEBUG [main] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-08-08 23:04:00,247 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-08-08 23:04:00,248 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-08-08 23:04:00,248 DEBUG [main] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2020-08-08 23:04:00,249 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-08-08 23:04:00,249 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2020-08-08 23:04:00,249 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-08-08 23:04:00,250 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-08-08 23:04:00,251 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2020-08-08 23:04:00,252 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-08-08 23:04:00,254 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-08-08 23:04:00,275 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-08-08 23:04:00,275 DEBUG [main] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-08-08 23:04:00,275 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 814[\r][\n]"
+2020-08-08 23:04:00,276 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2020-08-08 23:04:00,276 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2020-08-08 23:04:00,277 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2020-08-08 23:04:00,277 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: W/"70d225106d19d8c8c53da247fd7fc06e70985cf2a185e7d011c90e0e74d7a345"[\r][\n]"
+2020-08-08 23:04:00,278 DEBUG [main] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2020-08-08 23:04:00,278 DEBUG [main] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-08-08 23:04:00,278 DEBUG [main] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-08-08 23:04:00,278 DEBUG [main] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-08-08 23:04:00,279 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-08-08 23:04:00,279 DEBUG [main] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 30BC:7017:C0374:E955F:5F2F6447[\r][\n]"
+2020-08-08 23:04:00,279 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-08-08 23:04:00,279 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-08-08 23:04:00,280 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Sun, 09 Aug 2020 03:04:00 GMT[\r][\n]"
+2020-08-08 23:04:00,280 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2020-08-08 23:04:00,280 DEBUG [main] wire:73 - http-outgoing-0 << "X-Served-By: cache-lga21966-LGA[\r][\n]"
+2020-08-08 23:04:00,280 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+2020-08-08 23:04:00,281 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache-Hits: 1, 1[\r][\n]"
+2020-08-08 23:04:00,281 DEBUG [main] wire:73 - http-outgoing-0 << "X-Timer: S1596942240.286076,VS0,VE9[\r][\n]"
+2020-08-08 23:04:00,281 DEBUG [main] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2020-08-08 23:04:00,281 DEBUG [main] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-08-08 23:04:00,282 DEBUG [main] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: 75096e92779a552fa44031305a74c287f7ef1588[\r][\n]"
+2020-08-08 23:04:00,282 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Sun, 09 Aug 2020 03:09:00 GMT[\r][\n]"
+2020-08-08 23:04:00,282 DEBUG [main] wire:73 - http-outgoing-0 << "Source-Age: 213[\r][\n]"
+2020-08-08 23:04:00,283 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-08-08 23:04:00,287 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-08-08 23:04:00,288 DEBUG [main] headers:125 - http-outgoing-0 << Connection: keep-alive
+2020-08-08 23:04:00,288 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 814
+2020-08-08 23:04:00,289 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2020-08-08 23:04:00,289 DEBUG [main] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2020-08-08 23:04:00,289 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2020-08-08 23:04:00,289 DEBUG [main] headers:125 - http-outgoing-0 << ETag: W/"70d225106d19d8c8c53da247fd7fc06e70985cf2a185e7d011c90e0e74d7a345"
+2020-08-08 23:04:00,290 DEBUG [main] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2020-08-08 23:04:00,291 DEBUG [main] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-08-08 23:04:00,291 DEBUG [main] headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2020-08-08 23:04:00,292 DEBUG [main] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-08-08 23:04:00,292 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+2020-08-08 23:04:00,292 DEBUG [main] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 30BC:7017:C0374:E955F:5F2F6447
+2020-08-08 23:04:00,293 DEBUG [main] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2020-08-08 23:04:00,294 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-08-08 23:04:00,294 DEBUG [main] headers:125 - http-outgoing-0 << Date: Sun, 09 Aug 2020 03:04:00 GMT
+2020-08-08 23:04:00,295 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2020-08-08 23:04:00,295 DEBUG [main] headers:125 - http-outgoing-0 << X-Served-By: cache-lga21966-LGA
+2020-08-08 23:04:00,295 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache: HIT, HIT
+2020-08-08 23:04:00,296 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache-Hits: 1, 1
+2020-08-08 23:04:00,296 DEBUG [main] headers:125 - http-outgoing-0 << X-Timer: S1596942240.286076,VS0,VE9
+2020-08-08 23:04:00,296 DEBUG [main] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2020-08-08 23:04:00,297 DEBUG [main] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-08-08 23:04:00,297 DEBUG [main] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: 75096e92779a552fa44031305a74c287f7ef1588
+2020-08-08 23:04:00,297 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Sun, 09 Aug 2020 03:09:00 GMT
+2020-08-08 23:04:00,298 DEBUG [main] headers:125 - http-outgoing-0 << Source-Age: 213
+2020-08-08 23:04:00,307 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-08-08 23:04:00,319 DEBUG [main] wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x96][0xcb][0x8e][0xd3]0[0x14][0x86][0xf7]}[\n]"
+2020-08-08 23:04:00,320 DEBUG [main] wire:73 - http-outgoing-0 << "Kl`1[0x8e][0xef]vF[0xf2][0x86][0xeb][\n]"
+2020-08-08 23:04:00,320 DEBUG [main] wire:73 - http-outgoing-0 << "[0xb1][0x80][0x17]H[[0xb7][0x8d]H[0xe3][0xca][0xc9]P[0xe0][0xe9][0xf1]5[0xe3][0xb1]@b[0xd7][0xff][0x8b]}[0xfc]'>[0x97][0xbe][0x2][0xdf].[0xe3][0x2]N[0xe3]d[0xc0][0xc1][0xce][0xeb]0[0xce][0xb]X/[0x6]|[0x9f][0xed]}[0x6]?[0x8c][F[0xeb][0xd1][0xc9]:ptc[0xd0][0xe0][0xf5]~[0x9c][0x7][0xf7][0xeb][0x8d][0xdf]p[0xbd][\r][0xeb][0xb8][0xf7]{[0xef][0xe3]z[0x89][0xfb][0xe][0xd6]9[0xb3][0xdc][0xec]|[0x1c][0xe7]3[0xd8];{_[0x8c]+qv[0xbb]W[0xe0]mB[0x8f][0xe0][0x93][0xb5]g[0xbf][0xf3][0xdd][0xc5][0xd9][0xab][0x1][0xc3]|L?[0xc7][0xa7]+x[0x0][0xef][0xe3]Y[0x8f][0xe0][0x10][0x9f][0xa6][0x93][0xfd][0xe6][0xaf][0xf6][0xc9][0x1d][0xcc]#[0xb8][0xac][0xeb][0xed][0xb1][0xeb][0xea][0xa7][0xf0][0x90]wC[0xeb][0xce][0xdd][0xd1][0xbb][0x9f][0xec]p\vi[0x8d][0xe2]Zq[0x88] [0xc3][0x8a]B[0xaa][\n]"
+2020-08-08 23:04:00,321 DEBUG [main] wire:73 - http-outgoing-0 << "eZ[0xb1]H[0x99][0x84][0x14][0x15]J[0xb5]_[0x14]([0xf2]k[0xfb]B[0xb1]V8P[0xc4][0x18][0xc4][0xcf]![0x90]V[0xc8]c[0xda]+[0x9]1[0x12][0x19][0xcb]^[0xcb]>b[0xc6]![0xdd][0xa8][0xd2]RE[0x8a]|[0xc][0xc4][0xb][0x96]Z[0xca][0x80][0x95][0xe0]>~[0xa1]BK[0x11])[0xea]!&[[0xc][0xae]ex[0x13]*%[0x82][0xf8]y5[0xd3][0x92]ELz[0xb8][0xad][0xa5]Z[0x86]7[0xa1][0xc2][0xbf][0x90]([0x96]%[0xd1][0x4][0xb2]m[\r]~[0xa1]PP[0xc5][0x98][0xe8][0x83]bE[0xa9][0xa0]HQ2(\[0x94][0x8][0xaa][0x98][0x11][0xdc][0xab][0xed][0x13][0x9][0x16][0x94],[0x8a][0x6]U[0xce][0x13][0xc1][0xb][0xdd][0xce][0xb]^[0xe8]v^[0xf0]B[0xe9][0x8b][0xa4][0xf9]l[0x8f][0xd3]4[0x80][0x8f][0xa3]3'[0xfb][0xb3][0xca][0x94][0xb3]9|[0xb7]M[0x94][0xc5]g[0xca][0xd9][0xe7][0xe7][0xd3][0x1e][0xfa][0x8c][0xed][0xae])DWm[0xe8][0x9c][0x99][0xcc][0xb0][0x98]ewJq[0xfd][0xf5]!H[0xfc][0x9d]l@[0x5] * [ Z[0xc0][[0xc0]Z@[@Z[0x80][[0x80][0x1a] [0xfa][0x16]D[0xa7][0xbc][0x2][0xd1])[0xab][0x80]h[0x1]oAtJ+@[[0x10][0x9d][0x92][\n]"
+2020-08-08 23:04:00,321 DEBUG [main] wire:73 - http-outgoing-0 << "D[0xa7][0xb8][0x2][0xa8][0x1][0xbc]o[0x81]j[0x81]lAt[0x8a]*[0xc0][0xb][0xa8][0x93][0xe2][0xcb][0xcd][0xb8][0xa1]J[0x5][0x1b][0xf4][0xff][0xa4]B\[0xb8][0xd8][0xd3]z[0x1f][0x9c]I[0xaa]t[0x91]61[0xe2]C[0xff][0xf5][0x9f][0xfb][0x85][0xea][0x13][0xf4]7[0xf0][0xdc].z[0x99][0xa1][0xaa][0xbb][0x5][0xa6][0x99][0xca][0x17][0xcd][0x2]e*[0xaa]^!KT^[0xb5][\n]"
+2020-08-08 23:04:00,322 DEBUG [main] wire:73 - http-outgoing-0 << "U[0xa2][0xb2][0xaa]Q`R[0xf6][0xd3][0xba]QP[0x92])[0xa9][0xfb][0xc4]vV[0xae][0xef](x_[0x8b]\[0xdd]I[0xe4][0xe2]N"[0xd7]v[0x12][0xb9][0xb4][0x93][0xc8][0x95][0x9d]D.[0xec]$r]'[0x81]S!'[0x81]*[0xc1][0x82][0x83][0xe2][0x98][0x5][0x7]4[0x9f][0xc3][0x82][0x3][0x92]?[0x6][0x13]I[0xbc][0xe8][0x4][0xe3][0xc1][0xd9]pw[0xe0][0xc3][0xf1]l[0xaa][0xdb][0xbf].[0xc6][0x83]^[0xff][0xd1][0xfc]0S[0x88][\n]"
+2020-08-08 23:04:00,322 DEBUG [main] wire:87 - http-outgoing-0 << "[0xaf]%B[0xcc][0x5]3?<-[0xdd][0xc6][0x1e]B[0x90]n[0xb5]vZ[0xba][0xbb][0xd9][0xe7]t[0xd8][0x5][0xaa][0x84]V[0xe1]{[0xf3][0xd0][[0x13][0xc9][0xd3][0x85][0xb]VH[0x9e],[0x9c]l[0xa4]L[0x15][0xad]\%D[0xb4]"[0x1]qo[0x89][0x94]![0x83][0x5][0x94]2[0xa1]2`[0x4][0xf6][0x89][0x94][0x96]m[0xd3][0x5][0x17][0x7]e[0xb2][0x90][0x90][0x1f][0x89][0xe4][0xa1]B[0xe8]F[0xf2]@[0x9]#0[0x93]<K0[0xed]}UE[0xc4][0x98][0xbe]9[0xf3][0xe0][0xff][0x6][0xac][0xc3]4[0x99]c[0x82]D[0xb][0x88]%[0xf6][0xad]9J[0xac]}[0xfa][0x9][0xd2][0xf7]I"[0xed]s[0x9c]#A[0xa3][0xa4]JS?[0x98]h[0x9f]$[0x9][0x9][0xe3]g[0x9d][0x12]I"[0xed][0xdf][0x3][0x11][0x9f]O[0x0],[0xd4]{m|[0x8][0x0][0x0]"
+2020-08-08 23:04:00,323 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2020-08-08 23:04:00,323 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-08-08 23:04:00,323 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-08-08 23:04:05,961 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:04:07,080  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:10:19,017  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:10:19,028  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:10:27,770 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:10:28,770  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:25:06,631  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:25:06,645  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:25:17,321 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:25:18,715  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:36:18,803  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:36:18,822  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:36:28,774 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:36:30,843  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:38:36,696  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:38:36,713  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:38:46,270 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:38:47,985  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:42:50,103  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:42:50,113  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:42:56,908 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:42:58,258  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:43:43,654  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:43:43,663  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:43:52,211 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:43:53,792  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:52:53,711  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:52:53,724  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:53:03,888 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:53:05,725  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:55:27,065  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:55:27,073  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:55:36,869 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:55:38,308  INFO [main] SharedSD:36 - *******************
+2020-08-08 23:56:59,305  INFO [main] SharedSD:19 - ***************************
+2020-08-08 23:56:59,316  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-08 23:57:08,713 ERROR [main] SharedSD:28 - Test Failed
+2020-08-08 23:57:10,472  INFO [main] SharedSD:36 - *******************
+2020-08-09 10:21:06,526  INFO [main] SharedSD:19 - ***************************
+2020-08-09 10:21:06,534  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 10:21:13,456 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 10:21:14,872  INFO [main] SharedSD:36 - *******************
+2020-08-09 10:22:33,827  INFO [main] SharedSD:19 - ***************************
+2020-08-09 10:22:33,835  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 10:22:40,392 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 10:22:41,609  INFO [main] SharedSD:36 - *******************
+2020-08-09 10:24:01,335  INFO [main] SharedSD:19 - ***************************
+2020-08-09 10:24:01,343  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 10:24:08,195 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 10:24:09,399  INFO [main] SharedSD:36 - *******************
+2020-08-09 18:51:53,161  INFO [main] SharedSD:19 - ***************************
+2020-08-09 18:51:53,171  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 18:52:02,380 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 18:52:03,819  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:18:03,636  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:18:03,650  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:18:11,558 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:18:12,581  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:38:46,690  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:38:46,700  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:38:57,591 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:38:58,929  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:40:20,355  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:40:20,367  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:40:29,137 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:40:30,779  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:41:51,636  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:41:51,646  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:42:00,215 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:42:01,565  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:49:59,868  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:49:59,886  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:50:09,329 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:50:10,803  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:53:18,251  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:53:18,258  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:53:28,390 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:53:29,834  INFO [main] SharedSD:36 - *******************
+2020-08-09 19:55:00,899  INFO [main] SharedSD:19 - ***************************
+2020-08-09 19:55:00,909  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 19:55:10,682 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 19:55:12,216  INFO [main] SharedSD:36 - *******************
+2020-08-09 20:06:20,233  INFO [main] SharedSD:19 - ***************************
+2020-08-09 20:06:20,245  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 20:06:29,836 ERROR [main] SharedSD:28 - Test Failed
+2020-08-09 20:06:31,416  INFO [main] SharedSD:36 - *******************
+2020-08-09 20:57:42,225  INFO [main] SharedSD:19 - ***************************
+2020-08-09 20:57:42,235  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 20:57:50,225  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-09 20:57:50,226  INFO [main] SharedSD:34 - Test was completed
+2020-08-09 20:57:50,227  INFO [main] SharedSD:36 - *******************
+2020-08-09 20:59:53,366  INFO [main] SharedSD:19 - ***************************
+2020-08-09 20:59:53,375  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 21:00:00,962 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-09 21:00:00,963 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-09 21:00:00,964 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-09 21:00:00,974 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-09 21:00:00,975 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-09 21:00:00,976 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-09 21:00:00,978 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-09 21:00:00,979 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-09 21:00:00,979 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-09 21:00:00,981 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-09 21:00:00,982 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-09 21:00:00,982 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-09 21:00:00,984 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-09 21:00:00,985 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-09 21:00:00,987 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-09 21:00:00,989 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-09 21:00:00,990 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-09 21:00:00,991 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-09 21:00:00,993 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-09 21:00:00,993 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-09 21:00:00,994 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-09 21:00:00,995 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-09 21:00:00,996 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-09 21:00:00,996 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-09 21:00:00,999 DEBUG [main] BigDecimalConverter:336 - Setting default value: 0.0
+2020-08-09 21:00:01,000 DEBUG [main] BigDecimalConverter:127 - Converting 'BigDecimal' value '0.0' to type 'BigDecimal'
+2020-08-09 21:00:01,000 DEBUG [main] BigDecimalConverter:149 -     No conversion required, value is already a BigDecimal
+2020-08-09 21:00:01,004 DEBUG [main] BigIntegerConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,005 DEBUG [main] BigIntegerConverter:127 - Converting 'BigInteger' value '0' to type 'BigInteger'
+2020-08-09 21:00:01,005 DEBUG [main] BigIntegerConverter:149 -     No conversion required, value is already a BigInteger
+2020-08-09 21:00:01,005 DEBUG [main] BooleanConverter:336 - Setting default value: false
+2020-08-09 21:00:01,006 DEBUG [main] BooleanConverter:127 - Converting 'Boolean' value 'false' to type 'Boolean'
+2020-08-09 21:00:01,006 DEBUG [main] BooleanConverter:149 -     No conversion required, value is already a Boolean
+2020-08-09 21:00:01,007 DEBUG [main] ByteConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,008 DEBUG [main] ByteConverter:127 - Converting 'Integer' value '0' to type 'Byte'
+2020-08-09 21:00:01,009 DEBUG [main] ByteConverter:158 -     Converted to Byte value '0'
+2020-08-09 21:00:01,010 DEBUG [main] CharacterConverter:336 - Setting default value:  
+2020-08-09 21:00:01,011 DEBUG [main] CharacterConverter:127 - Converting 'Character' value ' ' to type 'Character'
+2020-08-09 21:00:01,012 DEBUG [main] CharacterConverter:149 -     No conversion required, value is already a Character
+2020-08-09 21:00:01,013 DEBUG [main] DoubleConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,015 DEBUG [main] DoubleConverter:127 - Converting 'Integer' value '0' to type 'Double'
+2020-08-09 21:00:01,016 DEBUG [main] DoubleConverter:158 -     Converted to Double value '0.0'
+2020-08-09 21:00:01,017 DEBUG [main] FloatConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,044 DEBUG [main] FloatConverter:127 - Converting 'Integer' value '0' to type 'Float'
+2020-08-09 21:00:01,047 DEBUG [main] FloatConverter:158 -     Converted to Float value '0.0'
+2020-08-09 21:00:01,049 DEBUG [main] IntegerConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,049 DEBUG [main] IntegerConverter:127 - Converting 'Integer' value '0' to type 'Integer'
+2020-08-09 21:00:01,051 DEBUG [main] IntegerConverter:149 -     No conversion required, value is already a Integer
+2020-08-09 21:00:01,056 DEBUG [main] LongConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,056 DEBUG [main] LongConverter:127 - Converting 'Integer' value '0' to type 'Long'
+2020-08-09 21:00:01,057 DEBUG [main] LongConverter:158 -     Converted to Long value '0'
+2020-08-09 21:00:01,058 DEBUG [main] ShortConverter:336 - Setting default value: 0
+2020-08-09 21:00:01,059 DEBUG [main] ShortConverter:127 - Converting 'Integer' value '0' to type 'Short'
+2020-08-09 21:00:01,059 DEBUG [main] ShortConverter:158 -     Converted to Short value '0'
+2020-08-09 21:00:01,062 DEBUG [main] StringConverter:336 - Setting default value: 
+2020-08-09 21:00:01,062 DEBUG [main] StringConverter:127 - Converting 'String' value '' to type 'String'
+2020-08-09 21:00:01,096 DEBUG [main] ArrayConverter:336 - Setting default value: [Z@414a3c7d
+2020-08-09 21:00:01,097 DEBUG [main] ArrayConverter:127 - Converting 'boolean[]' value '[Z@414a3c7d' to type 'boolean[]'
+2020-08-09 21:00:01,097 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a boolean[]
+2020-08-09 21:00:01,098 DEBUG [main] ArrayConverter:336 - Setting default value: [B@aad1270
+2020-08-09 21:00:01,099 DEBUG [main] ArrayConverter:127 - Converting 'byte[]' value '[B@aad1270' to type 'byte[]'
+2020-08-09 21:00:01,100 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a byte[]
+2020-08-09 21:00:01,101 DEBUG [main] ArrayConverter:336 - Setting default value: [C@6e5dc02d
+2020-08-09 21:00:01,102 DEBUG [main] ArrayConverter:127 - Converting 'char[]' value '[C@6e5dc02d' to type 'char[]'
+2020-08-09 21:00:01,103 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a char[]
+2020-08-09 21:00:01,104 DEBUG [main] ArrayConverter:336 - Setting default value: [D@7e4f5062
+2020-08-09 21:00:01,104 DEBUG [main] ArrayConverter:127 - Converting 'double[]' value '[D@7e4f5062' to type 'double[]'
+2020-08-09 21:00:01,104 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a double[]
+2020-08-09 21:00:01,105 DEBUG [main] ArrayConverter:336 - Setting default value: [F@473ee461
+2020-08-09 21:00:01,105 DEBUG [main] ArrayConverter:127 - Converting 'float[]' value '[F@473ee461' to type 'float[]'
+2020-08-09 21:00:01,106 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a float[]
+2020-08-09 21:00:01,108 DEBUG [main] ArrayConverter:336 - Setting default value: [I@43aa9ccd
+2020-08-09 21:00:01,109 DEBUG [main] ArrayConverter:127 - Converting 'int[]' value '[I@43aa9ccd' to type 'int[]'
+2020-08-09 21:00:01,110 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a int[]
+2020-08-09 21:00:01,111 DEBUG [main] ArrayConverter:336 - Setting default value: [J@40a0364a
+2020-08-09 21:00:01,112 DEBUG [main] ArrayConverter:127 - Converting 'long[]' value '[J@40a0364a' to type 'long[]'
+2020-08-09 21:00:01,112 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a long[]
+2020-08-09 21:00:01,114 DEBUG [main] ArrayConverter:336 - Setting default value: [S@2778f3d1
+2020-08-09 21:00:01,115 DEBUG [main] ArrayConverter:127 - Converting 'short[]' value '[S@2778f3d1' to type 'short[]'
+2020-08-09 21:00:01,115 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a short[]
+2020-08-09 21:00:01,116 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigDecimal;@71702d3f
+2020-08-09 21:00:01,117 DEBUG [main] ArrayConverter:127 - Converting 'BigDecimal[]' value '[Ljava.math.BigDecimal;@71702d3f' to type 'BigDecimal[]'
+2020-08-09 21:00:01,117 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigDecimal[]
+2020-08-09 21:00:01,118 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.math.BigInteger;@f9b97dc
+2020-08-09 21:00:01,119 DEBUG [main] ArrayConverter:127 - Converting 'BigInteger[]' value '[Ljava.math.BigInteger;@f9b97dc' to type 'BigInteger[]'
+2020-08-09 21:00:01,119 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a BigInteger[]
+2020-08-09 21:00:01,120 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Boolean;@5503e208
+2020-08-09 21:00:01,120 DEBUG [main] ArrayConverter:127 - Converting 'Boolean[]' value '[Ljava.lang.Boolean;@5503e208' to type 'Boolean[]'
+2020-08-09 21:00:01,120 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Boolean[]
+2020-08-09 21:00:01,121 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Byte;@1d3aefd
+2020-08-09 21:00:01,121 DEBUG [main] ArrayConverter:127 - Converting 'Byte[]' value '[Ljava.lang.Byte;@1d3aefd' to type 'Byte[]'
+2020-08-09 21:00:01,122 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Byte[]
+2020-08-09 21:00:01,122 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Character;@3f46fb53
+2020-08-09 21:00:01,122 DEBUG [main] ArrayConverter:127 - Converting 'Character[]' value '[Ljava.lang.Character;@3f46fb53' to type 'Character[]'
+2020-08-09 21:00:01,123 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Character[]
+2020-08-09 21:00:01,123 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Double;@5e16e521
+2020-08-09 21:00:01,124 DEBUG [main] ArrayConverter:127 - Converting 'Double[]' value '[Ljava.lang.Double;@5e16e521' to type 'Double[]'
+2020-08-09 21:00:01,124 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Double[]
+2020-08-09 21:00:01,124 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Float;@5930a229
+2020-08-09 21:00:01,125 DEBUG [main] ArrayConverter:127 - Converting 'Float[]' value '[Ljava.lang.Float;@5930a229' to type 'Float[]'
+2020-08-09 21:00:01,125 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Float[]
+2020-08-09 21:00:01,125 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Integer;@204d101
+2020-08-09 21:00:01,126 DEBUG [main] ArrayConverter:127 - Converting 'Integer[]' value '[Ljava.lang.Integer;@204d101' to type 'Integer[]'
+2020-08-09 21:00:01,126 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Integer[]
+2020-08-09 21:00:01,127 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Long;@2d17b6ad
+2020-08-09 21:00:01,127 DEBUG [main] ArrayConverter:127 - Converting 'Long[]' value '[Ljava.lang.Long;@2d17b6ad' to type 'Long[]'
+2020-08-09 21:00:01,127 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Long[]
+2020-08-09 21:00:01,128 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Short;@72e36d0f
+2020-08-09 21:00:01,129 DEBUG [main] ArrayConverter:127 - Converting 'Short[]' value '[Ljava.lang.Short;@72e36d0f' to type 'Short[]'
+2020-08-09 21:00:01,129 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Short[]
+2020-08-09 21:00:01,131 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.String;@40830e1e
+2020-08-09 21:00:01,132 DEBUG [main] ArrayConverter:127 - Converting 'String[]' value '[Ljava.lang.String;@40830e1e' to type 'String[]'
+2020-08-09 21:00:01,132 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a String[]
+2020-08-09 21:00:01,133 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.lang.Class;@26350832
+2020-08-09 21:00:01,133 DEBUG [main] ArrayConverter:127 - Converting 'Class[]' value '[Ljava.lang.Class;@26350832' to type 'Class[]'
+2020-08-09 21:00:01,134 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Class[]
+2020-08-09 21:00:01,135 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Date;@7d1cdebf
+2020-08-09 21:00:01,135 DEBUG [main] ArrayConverter:127 - Converting 'Date[]' value '[Ljava.util.Date;@7d1cdebf' to type 'Date[]'
+2020-08-09 21:00:01,136 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Date[]
+2020-08-09 21:00:01,136 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.util.Calendar;@56ed6e17
+2020-08-09 21:00:01,137 DEBUG [main] ArrayConverter:127 - Converting 'Calendar[]' value '[Ljava.util.Calendar;@56ed6e17' to type 'Calendar[]'
+2020-08-09 21:00:01,137 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a Calendar[]
+2020-08-09 21:00:01,137 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.io.File;@43e55cfb
+2020-08-09 21:00:01,138 DEBUG [main] ArrayConverter:127 - Converting 'java.io.File[]' value '[Ljava.io.File;@43e55cfb' to type 'java.io.File[]'
+2020-08-09 21:00:01,139 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.io.File[]
+2020-08-09 21:00:01,139 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Date;@650ee893
+2020-08-09 21:00:01,140 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Date[]' value '[Ljava.sql.Date;@650ee893' to type 'java.sql.Date[]'
+2020-08-09 21:00:01,140 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Date[]
+2020-08-09 21:00:01,141 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Time;@68553e92
+2020-08-09 21:00:01,142 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Time[]' value '[Ljava.sql.Time;@68553e92' to type 'java.sql.Time[]'
+2020-08-09 21:00:01,142 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Time[]
+2020-08-09 21:00:01,143 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.sql.Timestamp;@57cc7d9e
+2020-08-09 21:00:01,143 DEBUG [main] ArrayConverter:127 - Converting 'java.sql.Timestamp[]' value '[Ljava.sql.Timestamp;@57cc7d9e' to type 'java.sql.Timestamp[]'
+2020-08-09 21:00:01,143 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.sql.Timestamp[]
+2020-08-09 21:00:01,144 DEBUG [main] ArrayConverter:336 - Setting default value: [Ljava.net.URL;@62a07c01
+2020-08-09 21:00:01,144 DEBUG [main] ArrayConverter:127 - Converting 'java.net.URL[]' value '[Ljava.net.URL;@62a07c01' to type 'java.net.URL[]'
+2020-08-09 21:00:01,144 DEBUG [main] ArrayConverter:149 -     No conversion required, value is already a java.net.URL[]
+2020-08-09 21:00:02,115  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-09 21:00:02,115  INFO [main] SharedSD:34 - Test was completed
+2020-08-09 21:00:02,116  INFO [main] SharedSD:36 - *******************
+2020-08-09 22:55:57,303  INFO [main] SharedSD:19 - ***************************
+2020-08-09 22:55:57,316  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 22:56:07,472  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-09 22:56:07,473  INFO [main] SharedSD:34 - Test was completed
+2020-08-09 22:56:07,474  INFO [main] SharedSD:36 - *******************
+2020-08-09 23:01:18,484  INFO [main] SharedSD:19 - ***************************
+2020-08-09 23:01:18,493  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 23:01:27,451  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-09 23:01:27,452  INFO [main] SharedSD:34 - Test was completed
+2020-08-09 23:01:27,453  INFO [main] SharedSD:36 - *******************
+2020-08-09 23:07:20,453  INFO [main] SharedSD:19 - ***************************
+2020-08-09 23:07:20,463  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 23:07:21,985 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-08-09 23:07:22,011 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-08-09 23:07:22,015 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-08-09 23:07:22,088 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-08-09 23:07:22,093 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+2020-08-09 23:07:22,130 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/199.232.36.133:443
+2020-08-09 23:07:22,130 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/199.232.36.133:443 with timeout 0
+2020-08-09 23:07:22,254 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-08-09 23:07:22,261 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2020-08-09 23:07:22,264 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-08-09 23:07:22,423 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-08-09 23:07:22,423 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-08-09 23:07:22,424 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+2020-08-09 23:07:22,425 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+2020-08-09 23:07:22,428 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+2020-08-09 23:07:22,428 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+2020-08-09 23:07:22,432 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.1.206:52245<->199.232.36.133:443
+2020-08-09 23:07:22,433 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-08-09 23:07:22,433 DEBUG [main] MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-08-09 23:07:22,434 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-08-09 23:07:22,436 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-08-09 23:07:22,440 DEBUG [main] headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+2020-08-09 23:07:22,441 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+2020-08-09 23:07:22,441 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-08-09 23:07:22,442 DEBUG [main] headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+2020-08-09 23:07:22,442 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-08-09 23:07:22,442 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+2020-08-09 23:07:22,443 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+2020-08-09 23:07:22,443 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-08-09 23:07:22,444 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+2020-08-09 23:07:22,444 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-08-09 23:07:22,444 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-08-09 23:07:22,469 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-08-09 23:07:22,470 DEBUG [main] wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-08-09 23:07:22,471 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 814[\r][\n]"
+2020-08-09 23:07:22,471 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+2020-08-09 23:07:22,471 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+2020-08-09 23:07:22,472 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+2020-08-09 23:07:22,474 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: W/"70d225106d19d8c8c53da247fd7fc06e70985cf2a185e7d011c90e0e74d7a345"[\r][\n]"
+2020-08-09 23:07:22,474 DEBUG [main] wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+2020-08-09 23:07:22,475 DEBUG [main] wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+2020-08-09 23:07:22,475 DEBUG [main] wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+2020-08-09 23:07:22,475 DEBUG [main] wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+2020-08-09 23:07:22,476 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish (Varnish/6.0)[\r][\n]"
+2020-08-09 23:07:22,476 DEBUG [main] wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: FDAA:652D:6B86A4:80070C:5F30B3CD[\r][\n]"
+2020-08-09 23:07:22,476 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2020-08-09 23:07:22,477 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-08-09 23:07:22,477 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Mon, 10 Aug 2020 03:07:22 GMT[\r][\n]"
+2020-08-09 23:07:22,478 DEBUG [main] wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+2020-08-09 23:07:22,478 DEBUG [main] wire:73 - http-outgoing-0 << "X-Served-By: cache-lga21920-LGA[\r][\n]"
+2020-08-09 23:07:22,478 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache: HIT, HIT[\r][\n]"
+2020-08-09 23:07:22,479 DEBUG [main] wire:73 - http-outgoing-0 << "X-Cache-Hits: 5, 1[\r][\n]"
+2020-08-09 23:07:22,479 DEBUG [main] wire:73 - http-outgoing-0 << "X-Timer: S1597028842.482294,VS0,VE7[\r][\n]"
+2020-08-09 23:07:22,479 DEBUG [main] wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+2020-08-09 23:07:22,480 DEBUG [main] wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-08-09 23:07:22,480 DEBUG [main] wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: e11804c30ca09a9191063bc8349f39756d00672e[\r][\n]"
+2020-08-09 23:07:22,481 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Mon, 10 Aug 2020 03:12:22 GMT[\r][\n]"
+2020-08-09 23:07:22,481 DEBUG [main] wire:73 - http-outgoing-0 << "Source-Age: 147[\r][\n]"
+2020-08-09 23:07:22,487 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-08-09 23:07:22,500 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-08-09 23:07:22,503 DEBUG [main] headers:125 - http-outgoing-0 << Connection: keep-alive
+2020-08-09 23:07:22,504 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 814
+2020-08-09 23:07:22,504 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+2020-08-09 23:07:22,504 DEBUG [main] headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+2020-08-09 23:07:22,505 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+2020-08-09 23:07:22,505 DEBUG [main] headers:125 - http-outgoing-0 << ETag: W/"70d225106d19d8c8c53da247fd7fc06e70985cf2a185e7d011c90e0e74d7a345"
+2020-08-09 23:07:22,505 DEBUG [main] headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+2020-08-09 23:07:22,506 DEBUG [main] headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+2020-08-09 23:07:22,507 DEBUG [main] headers:125 - http-outgoing-0 << X-Frame-Options: deny
+2020-08-09 23:07:22,507 DEBUG [main] headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+2020-08-09 23:07:22,507 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish (Varnish/6.0)
+2020-08-09 23:07:22,508 DEBUG [main] headers:125 - http-outgoing-0 << X-GitHub-Request-Id: FDAA:652D:6B86A4:80070C:5F30B3CD
+2020-08-09 23:07:22,508 DEBUG [main] headers:125 - http-outgoing-0 << Content-Encoding: gzip
+2020-08-09 23:07:22,511 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-08-09 23:07:22,511 DEBUG [main] headers:125 - http-outgoing-0 << Date: Mon, 10 Aug 2020 03:07:22 GMT
+2020-08-09 23:07:22,514 DEBUG [main] headers:125 - http-outgoing-0 << Via: 1.1 varnish
+2020-08-09 23:07:22,514 DEBUG [main] headers:125 - http-outgoing-0 << X-Served-By: cache-lga21920-LGA
+2020-08-09 23:07:22,515 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache: HIT, HIT
+2020-08-09 23:07:22,516 DEBUG [main] headers:125 - http-outgoing-0 << X-Cache-Hits: 5, 1
+2020-08-09 23:07:22,524 DEBUG [main] headers:125 - http-outgoing-0 << X-Timer: S1597028842.482294,VS0,VE7
+2020-08-09 23:07:22,524 DEBUG [main] headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+2020-08-09 23:07:22,525 DEBUG [main] headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-08-09 23:07:22,525 DEBUG [main] headers:125 - http-outgoing-0 << X-Fastly-Request-ID: e11804c30ca09a9191063bc8349f39756d00672e
+2020-08-09 23:07:22,526 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Mon, 10 Aug 2020 03:12:22 GMT
+2020-08-09 23:07:22,527 DEBUG [main] headers:125 - http-outgoing-0 << Source-Age: 147
+2020-08-09 23:07:22,747 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-08-09 23:07:22,776 DEBUG [main] wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x96][0xcb][0x8e][0xd3]0[0x14][0x86][0xf7]}[\n]"
+2020-08-09 23:07:22,776 DEBUG [main] wire:73 - http-outgoing-0 << "Kl`1[0x8e][0xef]vF[0xf2][0x86][0xeb][\n]"
+2020-08-09 23:07:22,777 DEBUG [main] wire:73 - http-outgoing-0 << "[0xb1][0x80][0x17]H[[0xb7][0x8d]H[0xe3][0xca][0xc9]P[0xe0][0xe9][0xf1]5[0xe3][0xb1]@b[0xd7][0xff][0x8b]}[0xfc]'>[0x97][0xbe][0x2][0xdf].[0xe3][0x2]N[0xe3]d[0xc0][0xc1][0xce][0xeb]0[0xce][0xb]X/[0x6]|[0x9f][0xed]}[0x6]?[0x8c][F[0xeb][0xd1][0xc9]:ptc[0xd0][0xe0][0xf5]~[0x9c][0x7][0xf7][0xeb][0x8d][0xdf]p[0xbd][\r][0xeb][0xb8][0xf7]{[0xef][0xe3]z[0x89][0xfb][0xe][0xd6]9[0xb3][0xdc][0xec]|[0x1c][0xe7]3[0xd8];{_[0x8c]+qv[0xbb]W[0xe0]mB[0x8f][0xe0][0x93][0xb5]g[0xbf][0xf3][0xdd][0xc5][0xd9][0xab][0x1][0xc3]|L?[0xc7][0xa7]+x[0x0][0xef][0xe3]Y[0x8f][0xe0][0x10][0x9f][0xa6][0x93][0xfd][0xe6][0xaf][0xf6][0xc9][0x1d][0xcc]#[0xb8][0xac][0xeb][0xed][0xb1][0xeb][0xea][0xa7][0xf0][0x90]wC[0xeb][0xce][0xdd][0xd1][0xbb][0x9f][0xec]p\vi[0x8d][0xe2]Zq[0x88] [0xc3][0x8a]B[0xaa][\n]"
+2020-08-09 23:07:22,777 DEBUG [main] wire:73 - http-outgoing-0 << "eZ[0xb1]H[0x99][0x84][0x14][0x15]J[0xb5]_[0x14]([0xf2]k[0xfb]B[0xb1]V8P[0xc4][0x18][0xc4][0xcf]![0x90]V[0xc8]c[0xda]+[0x9]1[0x12][0x19][0xcb]^[0xcb]>b[0xc6]![0xdd][0xa8][0xd2]RE[0x8a]|[0xc][0xc4][0xb][0x96]Z[0xca][0x80][0x95][0xe0]>~[0xa1]BK[0x11])[0xea]!&[[0xc][0xae]ex[0x13]*%[0x82][0xf8]y5[0xd3][0x92]ELz[0xb8][0xad][0xa5]Z[0x86]7[0xa1][0xc2][0xbf][0x90]([0x96]%[0xd1][0x4][0xb2]m[\r]~[0xa1]PP[0xc5][0x98][0xe8][0x83]bE[0xa9][0xa0]HQ2(\[0x94][0x8][0xaa][0x98][0x11][0xdc][0xab][0xed][0x13][0x9][0x16][0x94],[0x8a][0x6]U[0xce][0x13][0xc1][0xb][0xdd][0xce][0xb]^[0xe8]v^[0xf0]B[0xe9][0x8b][0xa4][0xf9]l[0x8f][0xd3]4[0x80][0x8f][0xa3]3'[0xfb][0xb3][0xca][0x94][0xb3]9|[0xb7]M[0x94][0xc5]g[0xca][0xd9][0xe7][0xe7][0xd3][0x1e][0xfa][0x8c][0xed][0xae])DWm[0xe8][0x9c][0x99][0xcc][0xb0][0x98]ewJq[0xfd][0xf5]!H[0xfc][0x9d]l@[0x5] * [ Z[0xc0][[0xc0]Z@[@Z[0x80][[0x80][0x1a] [0xfa][0x16]D[0xa7][0xbc][0x2][0xd1])[0xab][0x80]h[0x1]oAtJ+@[[0x10][0x9d][0x92][\n]"
+2020-08-09 23:07:22,778 DEBUG [main] wire:73 - http-outgoing-0 << "D[0xa7][0xb8][0x2][0xa8][0x1][0xbc]o[0x81]j[0x81]lAt[0x8a]*[0xc0][0xb][0xa8][0x93][0xe2][0xcb][0xcd][0xb8][0xa1]J[0x5][0x1b][0xf4][0xff][0xa4]B\[0xb8][0xd8][0xd3]z[0x1f][0x9c]I[0xaa]t[0x91]61[0xe2]C[0xff][0xf5][0x9f][0xfb][0x85][0xea][0x13][0xf4]7[0xf0][0xdc].z[0x99][0xa1][0xaa][0xbb][0x5][0xa6][0x99][0xca][0x17][0xcd][0x2]e*[0xaa]^!KT^[0xb5][\n]"
+2020-08-09 23:07:22,779 DEBUG [main] wire:73 - http-outgoing-0 << "U[0xa2][0xb2][0xaa]Q`R[0xf6][0xd3][0xba]QP[0x92])[0xa9][0xfb][0xc4]vV[0xae][0xef](x_[0x8b]\[0xdd]I[0xe4][0xe2]N"[0xd7]v[0x12][0xb9][0xb4][0x93][0xc8][0x95][0x9d]D.[0xec]$r]'[0x81]S!'[0x81]*[0xc1][0x82][0x83][0xe2][0x98][0x5][0x7]4[0x9f][0xc3][0x82][0x3][0x92]?[0x6][0x13]I[0xbc][0xe8][0x4][0xe3][0xc1][0xd9]pw[0xe0][0xc3][0xf1]l[0xaa][0xdb][0xbf].[0xc6][0x83]^[0xff][0xd1][0xfc]0S[0x88][\n]"
+2020-08-09 23:07:22,779 DEBUG [main] wire:87 - http-outgoing-0 << "[0xaf]%B[0xcc][0x5]3?<-[0xdd][0xc6][0x1e]B[0x90]n[0xb5]vZ[0xba][0xbb][0xd9][0xe7]t[0xd8][0x5][0xaa][0x84]V[0xe1]{[0xf3][0xd0][[0x13][0xc9][0xd3][0x85][0xb]VH[0x9e],[0x9c]l[0xa4]L[0x15][0xad]\%D[0xb4]"[0x1]qo[0x89][0x94]![0x83][0x5][0x94]2[0xa1]2`[0x4][0xf6][0x89][0x94][0x96]m[0xd3][0x5][0x17][0x7]e[0xb2][0x90][0x90][0x1f][0x89][0xe4][0xa1]B[0xe8]F[0xf2]@[0x9]#0[0x93]<K0[0xed]}UE[0xc4][0x98][0xbe]9[0xf3][0xe0][0xff][0x6][0xac][0xc3]4[0x99]c[0x82]D[0xb][0x88]%[0xf6][0xad]9J[0xac]}[0xfa][0x9][0xd2][0xf7]I"[0xed]s[0x9c]#A[0xa3][0xa4]JS?[0x98]h[0x9f]$[0x9][0x9][0xe3]g[0x9d][0x12]I"[0xed][0xdf][0x3][0x11][0x9f]O[0x0],[0xd4]{m|[0x8][0x0][0x0]"
+2020-08-09 23:07:22,787 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+2020-08-09 23:07:22,787 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-08-09 23:07:22,788 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-08-09 23:07:31,879  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-09 23:07:31,881  INFO [main] SharedSD:34 - Test was completed
+2020-08-09 23:07:31,882  INFO [main] SharedSD:36 - *******************
+2020-08-09 23:13:26,770  INFO [main] SharedSD:19 - ***************************
+2020-08-09 23:13:26,779  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-09 23:13:37,903  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-09 23:13:37,904  INFO [main] SharedSD:34 - Test was completed
+2020-08-09 23:13:37,904  INFO [main] SharedSD:36 - *******************
+2020-08-10 14:44:14,021  INFO [main] SharedSD:19 - ***************************
+2020-08-10 14:44:14,029  INFO [main] SharedSD:20 - Test is starting.......!
+2020-08-10 14:44:36,048  INFO [main] SharedSD:33 - Cleanup...!
+2020-08-10 14:44:36,050  INFO [main] SharedSD:34 - Test was completed
+2020-08-10 14:44:36,050  INFO [main] SharedSD:36 - *******************

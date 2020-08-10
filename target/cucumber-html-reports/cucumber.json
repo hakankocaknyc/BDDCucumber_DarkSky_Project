@@ -1,0 +1,113 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1571361042,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on Dark Sky home page",
+            "match": {
+              "location": "DarkSkyHomeSD.setDarkSkyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19436266968,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the lowest and highest temp is displayed correctly",
+        "description": "",
+        "id": "darkskyhomepage-feature;verify-the-lowest-and-highest-temp-is-displayed-correctly",
+        "after": [
+          {
+            "result": {
+              "duration": 332366222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SharedSD.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174373327,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Today button and expand it",
+            "match": {
+              "location": "DarkSkyHomeSD.i_click_on_Today_button_and_expand_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 707938001,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I get lowest temperature, verify displayed temperature",
+            "match": {
+              "location": "DarkSkyHomeSD.i_get_lowest_temperature_verify_displayed_temperature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316056210,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I get highest temperature, verify displayed temperature",
+            "match": {
+              "location": "DarkSkyHomeSD.i_get_highest_temperature_verify_displayed_temperature()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@DarkSkyHome"
+          }
+        ]
+      }
+    ],
+    "name": "DarkSkyHomePage feature",
+    "description": "",
+    "id": "darkskyhomepage-feature",
+    "keyword": "Feature",
+    "uri": "DarkSkyHome.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]

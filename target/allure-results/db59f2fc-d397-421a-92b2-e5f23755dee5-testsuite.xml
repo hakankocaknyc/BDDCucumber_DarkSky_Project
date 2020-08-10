@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1597021200860" stop="1597021202351" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify the lowest and highest temp is displayed correctly</name>
+    <title>Verify the lowest and highest temp is displayed correctly</title>
+    <test-cases>
+        <test-case start="1597021200893" stop="1597021200897" status="passed">
+            <name>Given I am on Dark Sky home page</name>
+            <title>Given I am on Dark Sky home page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Hakans-Air"/>
+                <label name="thread" value="5699@Hakans-Air.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597021201255" stop="1597021201255" status="passed">
+            <name>When I click on Today button and expand it</name>
+            <title>When I click on Today button and expand it</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Hakans-Air"/>
+                <label name="thread" value="5699@Hakans-Air.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597021201786" stop="1597021201786" status="passed">
+            <name>And I get lowest temperature, verify displayed temperature</name>
+            <title>And I get lowest temperature, verify displayed temperature</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Hakans-Air"/>
+                <label name="thread" value="5699@Hakans-Air.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1597021202112" stop="1597021202113" status="passed">
+            <name>Then I get highest temperature, verify displayed temperature</name>
+            <title>Then I get highest temperature, verify displayed temperature</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Hakans-Air"/>
+                <label name="thread" value="5699@Hakans-Air.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify the lowest and highest temp is displayed correctly"/>
+        <label name="feature" value="DarkSkyHomePage feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
